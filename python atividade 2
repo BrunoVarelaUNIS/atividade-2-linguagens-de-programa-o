@@ -1,0 +1,15 @@
+try:
+    lado_1 = float(input('Digite o comprimento do lado 1: '))
+    lado_2 = float(input('Digite o comprimento do lado 2: '))
+    lado_3 = float(input('Digite o comprimento do lado 3: '))
+    nao_forma_triagulo = lado_1 >= (lado_2 + lado_3)
+
+    if not nao_forma_triagulo :
+        semi_perimetro = (lado_1 + lado_2 + lado_3) / 2
+        area = (semi_perimetro * (semi_perimetro - lado_1) * (semi_perimetro - lado_2) * (semi_perimetro - lado_3)) ** 0.5
+        print(f'A área do triângulo é: {area:.2f}')
+    else:
+        print(f'tais valores digitados {lado_1}, {lado_2}, {lado_3} não formam um triangulo.')
+except ValueError:
+    print(f'valores são invalidos!')
+

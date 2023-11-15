@@ -1,10 +1,11 @@
+# É vinculado um valor do tipo inteiro na variavel idade.
 idade = int(input('Digite a quantidade de dias que você viveu:'))
-
+# as variaveis recebem esse valor e transformam em anos,meses e dias.
 def calcular_idade (idade):
     anos_de_vida = idade // 365
     meses_de_vida = (idade % 365) // 30
     dias_de_vida = (idade % 365) % 30
     return  anos_de_vida, meses_de_vida, dias_de_vida
-
+#printa na tela o valor da variavel idade ja convertida em anos, meses e dias.
 anos_de_vida, meses_de_vida, dias_de_vida= calcular_idade(idade)
-print(f'Sua idade é: {anos_de_vida} anos, {meses_de_vida} meses, { dias_de_vida} dias')
+print(f'Sua idade é: {anos_de_vida} anos, {meses_de_vida} meses, { dias_de_vida} dias

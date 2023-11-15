@@ -2,8 +2,10 @@
 number_1 = int(input(f'escreva um número inteiro qualquer: '))
 number_2 = int(input (f'escreva um número inteiro qualquer: '))
 number_3 = int(input(f'escreva um número inteiro qualquer: '))
+
 # o comando min, retorna o menor valor difitado entres as variaveis.
 menor_num = min(number_1, number_2, number_3)
+
 #printa na tela o menor valor.
 print(f'O menor valor digitado foi {menor_num}')
 

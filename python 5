@@ -1,1 +1,6 @@
-
+#Função que inverte uma frase
+def inverter_frase(frase):
+    frase_invertida = frase[::-1]
+    return frase_invertida
+# Print da frase abaixo invertida
+print(inverter_frase('Estou programando em python'))

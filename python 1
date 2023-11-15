@@ -8,4 +8,4 @@ def calcular_idade (idade):
     return  anos_de_vida, meses_de_vida, dias_de_vida
 #printa na tela o valor da variavel idade ja convertida em anos, meses e dias.
 anos_de_vida, meses_de_vida, dias_de_vida= calcular_idade(idade)
-print(f'Sua idade é: {anos_de_vida} anos, {meses_de_vida} meses, { dias_de_vida} dias
+print(f'Sua idade é: {anos_de_vida} anos, {meses_de_vida} meses, { dias_de_vida} dias')
